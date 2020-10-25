@@ -13,6 +13,8 @@ MixedReality-SpectatorView with UniversalRenderPipeline
 
 `git submodule update --init --recursive`
 
-setting external/MixedReality-SpectatorView submodule
+setting [external/MixedReality-SpectatorView](https://github.com/akihiro0105/MixedReality-SpectatorView) submodule
+
+`tools\scripts\CreateUnityPackage.bat -HardCopySymbolicLinks`
 
 open SpectatorViewURP with Unity 2019.4
