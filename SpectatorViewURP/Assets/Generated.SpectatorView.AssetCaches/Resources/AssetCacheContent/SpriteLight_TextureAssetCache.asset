@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: SpriteLight_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 70d16a5f-0469-0d74-ab9b-1ddcbefd47bb
+      fileIdentifier: 2800000
+      name: SpriteLight
+    Asset: {fileID: 2800000, guid: 70d16a5f04690d74ab9b1ddcbefd47bb, type: 3}
+  - AssetId:
+      guid:
+        m_storage: 8839c547-10da-3374-f994-e12f39b6d65f
+      fileIdentifier: 2800000
+      name: SpriteLight
+    Asset: {fileID: 2800000, guid: 8839c54710da3374f994e12f39b6d65f, type: 3}

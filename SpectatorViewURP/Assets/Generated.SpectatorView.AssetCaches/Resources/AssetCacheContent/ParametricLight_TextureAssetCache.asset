@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: ParametricLight_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 302e68dd-45b9-b2d4-194f-f0f7f454436f
+      fileIdentifier: 2800000
+      name: ParametricLight
+    Asset: {fileID: 2800000, guid: 302e68dd45b9b2d4194ff0f7f454436f, type: 3}
+  - AssetId:
+      guid:
+        m_storage: e9578548-50cc-b714-0a53-8f7a93f8761b
+      fileIdentifier: 2800000
+      name: ParametricLight
+    Asset: {fileID: 2800000, guid: e957854850ccb7140a538f7a93f8761b, type: 3}

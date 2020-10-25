@@ -1,0 +1,675 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29111bdcab2ead418210130d901092a, type: 3}
+  m_Name: SpriteAssetCache
+  m_EditorClassIdentifier: 
+  assets:
+  - Name: Add
+    Ids:
+    - guid:
+        m_storage: cbaeed03-e541-6aa4-bae2-3110b63a0c7d
+      fileIdentifier: 21300000
+      name: Add
+  - Name: Add@2x
+    Ids:
+    - guid:
+        m_storage: 79aba0b2-90c4-71c4-ba3d-3f818d4e9b15
+      fileIdentifier: 21300000
+      name: Add@2x
+  - Name: Advanced_Pressed_mini
+    Ids:
+    - guid:
+        m_storage: 3e471b9f-ad72-6414-6aa0-3aca58b27957
+      fileIdentifier: 21300000
+      name: Advanced_Pressed_mini
+  - Name: Advanced_UnPressed_mini
+    Ids:
+    - guid:
+        m_storage: ad4dcac3-93f6-3f34-68f6-d9ff1652732e
+      fileIdentifier: 21300000
+      name: Advanced_UnPressed_mini
+  - Name: BlueButton
+    Ids:
+    - guid:
+        m_storage: 229c3211-a796-6124-ca2b-aa412fae0b0f
+      fileIdentifier: 21300000
+      name: BlueButton
+  - Name: Camera1
+    Ids:
+    - guid:
+        m_storage: 2384eb5d-e052-69b4-4a58-f8dd1d83d725
+      fileIdentifier: 21300000
+      name: Camera1
+  - Name: Camera1@2x
+    Ids:
+    - guid:
+        m_storage: 52b3ad41-81ff-bec4-cad6-eb26d07127f6
+      fileIdentifier: 21300000
+      name: Camera1@2x
+  - Name: Camera2
+    Ids:
+    - guid:
+        m_storage: e89a31db-98e4-03b4-0af1-a8f0ef9ae1ef
+      fileIdentifier: 21300000
+      name: Camera2
+  - Name: Camera2@2x
+    Ids:
+    - guid:
+        m_storage: 28f29173-5363-0ce4-fa30-7eeceadcd26d
+      fileIdentifier: 21300000
+      name: Camera2@2x
+  - Name: CenterLight
+    Ids:
+    - guid:
+        m_storage: 3092b298-5caf-e0b4-3b1f-02ce1d6829d5
+      fileIdentifier: 21300000
+      name: CenterLight
+  - Name: CenterLight@2x
+    Ids:
+    - guid:
+        m_storage: 8063050a-249e-ef44-1beb-8cbbd04c086c
+      fileIdentifier: 21300000
+      name: CenterLight@2x
+  - Name: d_Add
+    Ids:
+    - guid:
+        m_storage: 160b197a-ba54-9514-286b-94426ceae589
+      fileIdentifier: 21300000
+      name: d_Add
+  - Name: d_Add@2x
+    Ids:
+    - guid:
+        m_storage: daa49a1f-0646-0a04-b982-7dd6f0bace08
+      fileIdentifier: 21300000
+      name: d_Add@2x
+  - Name: d_Camera1
+    Ids:
+    - guid:
+        m_storage: 56c35c86-bb44-b0e4-e84a-22db56968157
+      fileIdentifier: 21300000
+      name: d_Camera1
+  - Name: d_Camera1@2x
+    Ids:
+    - guid:
+        m_storage: 603d01d7-30be-2414-7add-a7897e463598
+      fileIdentifier: 21300000
+      name: d_Camera1@2x
+  - Name: d_Camera2
+    Ids:
+    - guid:
+        m_storage: 281160d5-4742-cbb4-4a88-a61bf8ccfb16
+      fileIdentifier: 21300000
+      name: d_Camera2
+  - Name: d_Camera2@2x
+    Ids:
+    - guid:
+        m_storage: 99d7e777-338a-b8f4-ba89-0cc738794dba
+      fileIdentifier: 21300000
+      name: d_Camera2@2x
+  - Name: d_CenterLight
+    Ids:
+    - guid:
+        m_storage: fca3bc21-b460-0e04-faad-db69c5fad81e
+      fileIdentifier: 21300000
+      name: d_CenterLight
+  - Name: d_CenterLight@2x
+    Ids:
+    - guid:
+        m_storage: a14e6ee6-80df-42f4-c99b-f69bc3d6b9ca
+      fileIdentifier: 21300000
+      name: d_CenterLight@2x
+  - Name: d_Duplicate
+    Ids:
+    - guid:
+        m_storage: 0d692588-b1d4-0e94-2962-0400bd5efe63
+      fileIdentifier: 21300000
+      name: d_Duplicate
+  - Name: d_Duplicate@2x
+    Ids:
+    - guid:
+        m_storage: 8ca869dd-944d-5f54-e9ec-614b26f10dcb
+      fileIdentifier: 21300000
+      name: d_Duplicate@2x
+  - Name: d_Environment
+    Ids:
+    - guid:
+        m_storage: 98cefb35-4c00-bc44-cb31-fffd52dc4650
+      fileIdentifier: 21300000
+      name: d_Environment
+  - Name: d_Environment@2x
+    Ids:
+    - guid:
+        m_storage: a4638c6b-8e07-c0b4-9822-ed7a91a96d0a
+      fileIdentifier: 21300000
+      name: d_Environment@2x
+  - Name: d_Layout1
+    Ids:
+    - guid:
+        m_storage: da974c4d-4053-3154-a83d-57ca90e34bb8
+      fileIdentifier: 21300000
+      name: d_Layout1
+  - Name: d_Layout1@2x
+    Ids:
+    - guid:
+        m_storage: 4de5e4f3-717b-2c54-8bd8-b90b6c628b2f
+      fileIdentifier: 21300000
+      name: d_Layout1@2x
+  - Name: d_Layout2
+    Ids:
+    - guid:
+        m_storage: 98b5b3e7-c51d-3254-7b9b-09232034b5d5
+      fileIdentifier: 21300000
+      name: d_Layout2
+  - Name: d_Layout2@2x
+    Ids:
+    - guid:
+        m_storage: 50f7a3e9-8781-19a4-da02-f38cf05d75ba
+      fileIdentifier: 21300000
+      name: d_Layout2@2x
+  - Name: d_LayoutCustom
+    Ids:
+    - guid:
+        m_storage: 8c3a606a-4a14-7a34-c952-b98bf038c662
+      fileIdentifier: 21300000
+      name: d_LayoutCustom
+  - Name: d_LayoutCustom@2x
+    Ids:
+    - guid:
+        m_storage: b753c88a-6aeb-2674-fa1d-4f0a4c0a285a
+      fileIdentifier: 21300000
+      name: d_LayoutCustom@2x
+  - Name: d_LayoutHorizontal
+    Ids:
+    - guid:
+        m_storage: 83cbec96-6611-99e4-08a7-44d4c3e586e2
+      fileIdentifier: 21300000
+      name: d_LayoutHorizontal
+  - Name: d_LayoutHorizontal@2x
+    Ids:
+    - guid:
+        m_storage: 9cad9299-9ddf-a304-495b-735a55c78329
+      fileIdentifier: 21300000
+      name: d_LayoutHorizontal@2x
+  - Name: d_LayoutVertical
+    Ids:
+    - guid:
+        m_storage: 02c3588c-32f6-40d4-7bb7-0ee3fa774fce
+      fileIdentifier: 21300000
+      name: d_LayoutVertical
+  - Name: d_LayoutVertical@2x
+    Ids:
+    - guid:
+        m_storage: 472b4042-959b-bd84-4b8f-d760bddd7a47
+      fileIdentifier: 21300000
+      name: d_LayoutVertical@2x
+  - Name: d_LeftArrow
+    Ids:
+    - guid:
+        m_storage: 84189b4c-7cae-ef34-19b6-b031b8812685
+      fileIdentifier: 21300000
+      name: d_LeftArrow
+  - Name: d_LeftArrow@2x
+    Ids:
+    - guid:
+        m_storage: 90335e54-23c0-1074-9a50-f906b965fa54
+      fileIdentifier: 21300000
+      name: d_LeftArrow@2x
+  - Name: d_Link
+    Ids:
+    - guid:
+        m_storage: 94ec4fdf-9502-c374-7b5c-0754ca18919e
+      fileIdentifier: 21300000
+      name: d_Link
+  - Name: d_Link@2x
+    Ids:
+    - guid:
+        m_storage: 2b06c357-1069-3f64-0bab-b3dcf747d06a
+      fileIdentifier: 21300000
+      name: d_Link@2x
+  - Name: d_LookDev
+    Ids:
+    - guid:
+        m_storage: 0615fe89-1091-1be4-299d-5604a54db99a
+      fileIdentifier: 21300000
+      name: d_LookDev
+  - Name: d_LookDev@2x
+    Ids:
+    - guid:
+        m_storage: ffdf80dc-342e-6934-4b2d-ccafe04c30ee
+      fileIdentifier: 21300000
+      name: d_LookDev@2x
+  - Name: d_Remove
+    Ids:
+    - guid:
+        m_storage: 4ff71d80-6d58-fd04-1be6-e55d1d1ca70e
+      fileIdentifier: 21300000
+      name: d_Remove
+  - Name: d_Remove@2x
+    Ids:
+    - guid:
+        m_storage: cc27e958-68ab-3234-5b74-b8338c01ebed
+      fileIdentifier: 21300000
+      name: d_Remove@2x
+  - Name: d_renderdoc
+    Ids:
+    - guid:
+        m_storage: cbe92994-8d88-af74-09a0-5054bc8187c7
+      fileIdentifier: 21300000
+      name: d_renderdoc
+  - Name: d_RenderDoc@2x
+    Ids:
+    - guid:
+        m_storage: 9c63b517-55ec-8c84-5b85-7cc73a35d606
+      fileIdentifier: 21300000
+      name: d_RenderDoc@2x
+  - Name: d_RightArrow
+    Ids:
+    - guid:
+        m_storage: 99e5d180-080c-9694-0a65-c6d906ff9131
+      fileIdentifier: 21300000
+      name: d_RightArrow
+  - Name: d_RightArrow@2x
+    Ids:
+    - guid:
+        m_storage: 28d47cba-afc9-8254-f8d4-f6184dff22cd
+      fileIdentifier: 21300000
+      name: d_RightArrow@2x
+  - Name: d_Rotation
+    Ids:
+    - guid:
+        m_storage: abc6ce87-642c-5c14-78a4-b107d1c5688a
+      fileIdentifier: 21300000
+      name: d_Rotation
+  - Name: d_Rotation@2x
+    Ids:
+    - guid:
+        m_storage: db7aaa16-2a1a-5a54-b826-d15b5b20fb06
+      fileIdentifier: 21300000
+      name: d_Rotation@2x
+  - Name: d_SunPosition
+    Ids:
+    - guid:
+        m_storage: cc99218b-39d9-1f84-e9a2-6fac406c07e7
+      fileIdentifier: 21300000
+      name: d_SunPosition
+  - Name: d_SunPosition@2x
+    Ids:
+    - guid:
+        m_storage: ba2d3d7d-05fd-3e04-6b6d-413365e9b11e
+      fileIdentifier: 21300000
+      name: d_SunPosition@2x
+  - Name: Duplicate
+    Ids:
+    - guid:
+        m_storage: 352dd7fc-77ee-28c4-79bf-6504efe94f16
+      fileIdentifier: 21300000
+      name: Duplicate
+  - Name: Duplicate@2x
+    Ids:
+    - guid:
+        m_storage: 91ffd37b-0545-bf64-48f8-d937736130a1
+      fileIdentifier: 21300000
+      name: Duplicate@2x
+  - Name: Environment
+    Ids:
+    - guid:
+        m_storage: 8accc003-516b-edf4-b94c-9c8a86b2b6a1
+      fileIdentifier: 21300000
+      name: Environment
+  - Name: Environment@2x
+    Ids:
+    - guid:
+        m_storage: 515b65dc-9531-9f34-09d6-b0b5f866ac33
+      fileIdentifier: 21300000
+      name: Environment@2x
+  - Name: Layout1
+    Ids:
+    - guid:
+        m_storage: 9a317333-5e57-41d4-38e8-1064b518bd80
+      fileIdentifier: 21300000
+      name: Layout1
+  - Name: Layout1@2x
+    Ids:
+    - guid:
+        m_storage: 8263f1f2-6524-4044-98d5-1bfe0b819925
+      fileIdentifier: 21300000
+      name: Layout1@2x
+  - Name: Layout2
+    Ids:
+    - guid:
+        m_storage: d9658be0-87f3-90f4-6bfe-fa8cb32bbaa6
+      fileIdentifier: 21300000
+      name: Layout2
+  - Name: Layout2@2x
+    Ids:
+    - guid:
+        m_storage: 356caeb1-305b-f794-e94e-cd5161f8e6e3
+      fileIdentifier: 21300000
+      name: Layout2@2x
+  - Name: LayoutCustom
+    Ids:
+    - guid:
+        m_storage: 1cc4a700-8589-6c04-bbfb-f60669963fc8
+      fileIdentifier: 21300000
+      name: LayoutCustom
+  - Name: LayoutCustom@2x
+    Ids:
+    - guid:
+        m_storage: 2fffe801-f98f-b314-4843-82ea4affcf94
+      fileIdentifier: 21300000
+      name: LayoutCustom@2x
+  - Name: LayoutHorizontal
+    Ids:
+    - guid:
+        m_storage: 8ccec084-228b-3b74-a898-f38126eb142f
+      fileIdentifier: 21300000
+      name: LayoutHorizontal
+  - Name: LayoutHorizontal@2x
+    Ids:
+    - guid:
+        m_storage: f3fe1e47-8135-ed34-db9a-1f6707f52c6a
+      fileIdentifier: 21300000
+      name: LayoutHorizontal@2x
+  - Name: LayoutVertical
+    Ids:
+    - guid:
+        m_storage: 6a9d49ac-254f-03c4-8bf5-b6590f4d2a24
+      fileIdentifier: 21300000
+      name: LayoutVertical
+  - Name: LayoutVertical@2x
+    Ids:
+    - guid:
+        m_storage: 6b806733-6fda-8f04-0bb1-f6d336ac08c5
+      fileIdentifier: 21300000
+      name: LayoutVertical@2x
+  - Name: LeftArrow
+    Ids:
+    - guid:
+        m_storage: aba72f93-e900-5054-dba8-cb368c0bf724
+      fileIdentifier: 21300000
+      name: LeftArrow
+  - Name: LeftArrow@2x
+    Ids:
+    - guid:
+        m_storage: f0106cef-986b-e534-181a-8582cffd29da
+      fileIdentifier: 21300000
+      name: LeftArrow@2x
+  - Name: Link
+    Ids:
+    - guid:
+        m_storage: 45751a41-24f6-7c44-3bf9-6ed1df7c550b
+      fileIdentifier: 21300000
+      name: Link
+  - Name: Link@2x
+    Ids:
+    - guid:
+        m_storage: 9a235474-413e-1f34-9b01-0b461c76efac
+      fileIdentifier: 21300000
+      name: Link@2x
+  - Name: LookDev
+    Ids:
+    - guid:
+        m_storage: 85099cb7-23ef-e444-4a23-b08281d721c2
+      fileIdentifier: 21300000
+      name: LookDev
+  - Name: LookDev@2x
+    Ids:
+    - guid:
+        m_storage: bd76726f-fb1e-b944-29fb-8143429bd978
+      fileIdentifier: 21300000
+      name: LookDev@2x
+  - Name: PlayTexture
+    Ids:
+    - guid:
+        m_storage: c91313de-4a57-9684-fb5a-4d33009a2497
+      fileIdentifier: 21300000
+      name: PlayTexture
+  - Name: RecordButton
+    Ids:
+    - guid:
+        m_storage: d6cb64fe-b90e-0314-f9c6-e885fcc3d39b
+      fileIdentifier: 21300000
+      name: RecordButton
+  - Name: RecordTexture
+    Ids:
+    - guid:
+        m_storage: d867b2e3-61e9-0944-b8b1-ee90338f4350
+      fileIdentifier: 21300000
+      name: RecordTexture
+  - Name: Remove
+    Ids:
+    - guid:
+        m_storage: a5c48bfe-beb0-31a4-b8d6-6da4be0e27b9
+      fileIdentifier: 21300000
+      name: Remove
+  - Name: Remove@2x
+    Ids:
+    - guid:
+        m_storage: 049c8a78-2117-7594-6922-44298d82e4af
+      fileIdentifier: 21300000
+      name: Remove@2x
+  - Name: renderdoc
+    Ids:
+    - guid:
+        m_storage: cf13fb90-f91d-2a54-5a00-591d75b43bd8
+      fileIdentifier: 21300000
+      name: renderdoc
+  - Name: RenderDoc@2x
+    Ids:
+    - guid:
+        m_storage: 89608b06-0fc7-2794-7939-8a62e245a409
+      fileIdentifier: 21300000
+      name: RenderDoc@2x
+  - Name: RightArrow
+    Ids:
+    - guid:
+        m_storage: df4dc708-bd86-9244-6a6d-5c3531ac377b
+      fileIdentifier: 21300000
+      name: RightArrow
+  - Name: RightArrow@2x
+    Ids:
+    - guid:
+        m_storage: e1942709-7797-7b24-da0c-6e1c962a5ce9
+      fileIdentifier: 21300000
+      name: RightArrow@2x
+  - Name: Rotation
+    Ids:
+    - guid:
+        m_storage: 2ee66e81-9753-7774-5aaa-59fe11ad374d
+      fileIdentifier: 21300000
+      name: Rotation
+  - Name: Rotation@2x
+    Ids:
+    - guid:
+        m_storage: e9af7857-8671-a334-5b8c-bf82f1f030b5
+      fileIdentifier: 21300000
+      name: Rotation@2x
+  - Name: StopTexture
+    Ids:
+    - guid:
+        m_storage: 375eed97-2162-2324-3984-8c636aab9117
+      fileIdentifier: 21300000
+      name: StopTexture
+  - Name: SunPosition
+    Ids:
+    - guid:
+        m_storage: aa1dfcb6-7e8b-f664-d8d8-a1821c118281
+      fileIdentifier: 21300000
+      name: SunPosition
+  - Name: SunPosition@2x
+    Ids:
+    - guid:
+        m_storage: 2f75c34a-5bc5-2554-5916-fb8367422dd0
+      fileIdentifier: 21300000
+      name: SunPosition@2x
+  - Name: sv0
+    Ids:
+    - guid:
+        m_storage: 6344c474-9a58-54a4-fb03-3def626a8547
+      fileIdentifier: 21300000
+      name: sv0
+  - Name: sv1
+    Ids:
+    - guid:
+        m_storage: 4af5db22-4464-bf34-cb8f-dc70ee470b65
+      fileIdentifier: 21300000
+      name: sv1
+  - Name: sv10
+    Ids:
+    - guid:
+        m_storage: eabaead8-25c4-fa84-6947-4a08de620d78
+      fileIdentifier: 21300000
+      name: sv10
+  - Name: sv11
+    Ids:
+    - guid:
+        m_storage: b7c2f847-b307-3494-5a20-fd895bfd2717
+      fileIdentifier: 21300000
+      name: sv11
+  - Name: sv12
+    Ids:
+    - guid:
+        m_storage: 61438131-b4fd-ac44-6a91-f664f1770aad
+      fileIdentifier: 21300000
+      name: sv12
+  - Name: sv13
+    Ids:
+    - guid:
+        m_storage: 1520ffe2-2e03-8294-9b34-d64a73900077
+      fileIdentifier: 21300000
+      name: sv13
+  - Name: sv14
+    Ids:
+    - guid:
+        m_storage: e331c375-9dc6-afb4-086a-58238fc6934c
+      fileIdentifier: 21300000
+      name: sv14
+  - Name: sv15
+    Ids:
+    - guid:
+        m_storage: 6deea620-179c-aad4-d97d-51e0e6e03010
+      fileIdentifier: 21300000
+      name: sv15
+  - Name: sv16
+    Ids:
+    - guid:
+        m_storage: 8a0da391-9302-1fa4-cb9b-71d883d30b97
+      fileIdentifier: 21300000
+      name: sv16
+  - Name: sv17
+    Ids:
+    - guid:
+        m_storage: c82628e7-a85e-39c4-181b-8f4bbc022896
+      fileIdentifier: 21300000
+      name: sv17
+  - Name: sv18
+    Ids:
+    - guid:
+        m_storage: 3ba76ce0-e2c9-a7c4-5801-facdc7e24384
+      fileIdentifier: 21300000
+      name: sv18
+  - Name: sv19
+    Ids:
+    - guid:
+        m_storage: b866a23e-6fb7-94a4-5bb5-71ce249f1c93
+      fileIdentifier: 21300000
+      name: sv19
+  - Name: sv2
+    Ids:
+    - guid:
+        m_storage: 0ac4e434-e8bf-54a4-18c7-e6ff28cdf07b
+      fileIdentifier: 21300000
+      name: sv2
+  - Name: sv3
+    Ids:
+    - guid:
+        m_storage: 8a86432c-6c39-2234-79e7-d6b663242ae9
+      fileIdentifier: 21300000
+      name: sv3
+  - Name: sv4
+    Ids:
+    - guid:
+        m_storage: 739d0ad3-b6c1-0dc4-9b8a-45caf9002249
+      fileIdentifier: 21300000
+      name: sv4
+  - Name: sv5
+    Ids:
+    - guid:
+        m_storage: edf886be-8536-b924-8994-f01ae476fe11
+      fileIdentifier: 21300000
+      name: sv5
+  - Name: sv6
+    Ids:
+    - guid:
+        m_storage: b2c8cdd0-abb0-99e4-3b24-fe3c1944e166
+      fileIdentifier: 21300000
+      name: sv6
+  - Name: sv7
+    Ids:
+    - guid:
+        m_storage: 2e1868a1-5829-5364-59f5-d0022d6ec0b5
+      fileIdentifier: 21300000
+      name: sv7
+  - Name: sv8
+    Ids:
+    - guid:
+        m_storage: 426a1fee-d732-8674-1995-65d08aa1abe4
+      fileIdentifier: 21300000
+      name: sv8
+  - Name: sv9
+    Ids:
+    - guid:
+        m_storage: ec74779a-ec7b-9eb4-aa02-bc94fe6c78c9
+      fileIdentifier: 21300000
+      name: sv9
+  - Name: UIArrowDown
+    Ids:
+    - guid:
+        m_storage: f224bfd1-2287-7a34-aa49-c63693fc317b
+      fileIdentifier: 21300000
+      name: UIArrowDown
+  - Name: UICheckMark
+    Ids:
+    - guid:
+        m_storage: b346b2a2-df1d-2904-38be-3287b6419408
+      fileIdentifier: 21300000
+      name: UICheckMark
+  - Name: UIElement8px
+    Ids:
+    - guid:
+        m_storage: d49e7875-6811-bfa4-aafb-8b6535417991
+      fileIdentifier: 21300000
+      name: UIElement8px
+  - Name: UIFoldoutClosed
+    Ids:
+    - guid:
+        m_storage: 7a0568d5-e333-0b84-687e-307992be3030
+      fileIdentifier: 21300000
+      name: UIFoldoutClosed
+  - Name: UIFoldoutOpened
+    Ids:
+    - guid:
+        m_storage: a6747204-96c1-ed24-8a5b-7ea3e22a11fd
+      fileIdentifier: 21300000
+      name: UIFoldoutOpened
+  - Name: UIMask
+    Ids:
+    - guid:
+        m_storage: 00000000-0000-0000-f000-000000000000
+      fileIdentifier: 10917
+      name: UIMask
+  - Name: White1px
+    Ids:
+    - guid:
+        m_storage: 127279d5-77f2-5ac4-ea17-dae3782e5074
+      fileIdentifier: 21300000
+      name: White1px

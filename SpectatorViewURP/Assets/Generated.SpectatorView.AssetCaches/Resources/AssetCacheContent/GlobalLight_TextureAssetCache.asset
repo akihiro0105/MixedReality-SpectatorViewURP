@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: GlobalLight_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 7f923c32-ff8d-fab4-0b56-73135ddb6cd4
+      fileIdentifier: 2800000
+      name: GlobalLight
+    Asset: {fileID: 2800000, guid: 7f923c32ff8dfab40b5673135ddb6cd4, type: 3}
+  - AssetId:
+      guid:
+        m_storage: 8f5dd14b-314e-fbe4-6843-29d8a14bbe38
+      fileIdentifier: 2800000
+      name: GlobalLight
+    Asset: {fileID: 2800000, guid: 8f5dd14b314efbe4684329d8a14bbe38, type: 3}

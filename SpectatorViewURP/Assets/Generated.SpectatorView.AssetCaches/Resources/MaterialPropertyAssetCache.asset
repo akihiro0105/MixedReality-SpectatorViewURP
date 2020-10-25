@@ -1,0 +1,831 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93de580ac7303fa43b2629ad89e36082, type: 3}
+  m_Name: MaterialPropertyAssetCache
+  m_EditorClassIdentifier: 
+  materialPropertyAssets:
+  - shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: UI/Default
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: UI/Default
+    propertyName: _Color
+    propertyType: 0
+  - shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: UI/Default
+    propertyName: _StencilComp
+    propertyType: 2
+  - shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: UI/Default
+    propertyName: _Stencil
+    propertyType: 2
+  - shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: UI/Default
+    propertyName: _StencilOp
+    propertyType: 2
+  - shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: UI/Default
+    propertyName: _StencilWriteMask
+    propertyType: 2
+  - shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: UI/Default
+    propertyName: _StencilReadMask
+    propertyType: 2
+  - shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: UI/Default
+    propertyName: _ColorMask
+    propertyType: 2
+  - shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: UI/Default
+    propertyName: _UseUIAlphaClip
+    propertyType: 2
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _Color
+    propertyType: 0
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _Cutoff
+    propertyType: 3
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _Glossiness
+    propertyType: 3
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _GlossMapScale
+    propertyType: 3
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _SmoothnessTextureChannel
+    propertyType: 2
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _Metallic
+    propertyType: 3
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _MetallicGlossMap
+    propertyType: 4
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _SpecularHighlights
+    propertyType: 2
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _GlossyReflections
+    propertyType: 2
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _BumpScale
+    propertyType: 2
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _BumpMap
+    propertyType: 4
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _Parallax
+    propertyType: 3
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _ParallaxMap
+    propertyType: 4
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _OcclusionStrength
+    propertyType: 3
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _OcclusionMap
+    propertyType: 4
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _EmissionColor
+    propertyType: 0
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _EmissionMap
+    propertyType: 4
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _DetailMask
+    propertyType: 4
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _DetailAlbedoMap
+    propertyType: 4
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _DetailNormalMapScale
+    propertyType: 2
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _DetailNormalMap
+    propertyType: 4
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _UVSec
+    propertyType: 2
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _Mode
+    propertyType: 2
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _SrcBlend
+    propertyType: 2
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _DstBlend
+    propertyType: 2
+  - shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Standard
+    propertyName: _ZWrite
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: ea4b73caa6ce81141a44be6d0a0c6829, type: 3}
+    shaderName: SV/IgnoreAlpha
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 941c5282fb189a4488e0e77278feab21, type: 3}
+    shaderName: SV/QuadView
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 941c5282fb189a4488e0e77278feab21, type: 3}
+    shaderName: SV/QuadView
+    propertyName: _HologramTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 941c5282fb189a4488e0e77278feab21, type: 3}
+    shaderName: SV/QuadView
+    propertyName: _HologramAlphaTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 941c5282fb189a4488e0e77278feab21, type: 3}
+    shaderName: SV/QuadView
+    propertyName: _CompositeTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: d205647913a7f2247a941d09358bc180, type: 3}
+    shaderName: SV/BGRToRGB
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: d205647913a7f2247a941d09358bc180, type: 3}
+    shaderName: SV/BGRToRGB
+    propertyName: _AlphaScale
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: d205647913a7f2247a941d09358bc180, type: 3}
+    shaderName: SV/BGRToRGB
+    propertyName: _YFlip
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: fd14a350c1446084087e4b6628a34472, type: 3}
+    shaderName: SV/ColorCorrection
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 7fa6f090af941a84ea7633ce84aefe29, type: 3}
+    shaderName: SV/OcclusionMask
+    propertyName: _BodyMaskTexture
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 7fa6f090af941a84ea7633ce84aefe29, type: 3}
+    shaderName: SV/OcclusionMask
+    propertyName: _DepthTexture
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 0fa9e48777047104bb4bb8290d6be951, type: 3}
+    shaderName: SV/AlphaBlend
+    propertyName: _BackTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 0fa9e48777047104bb4bb8290d6be951, type: 3}
+    shaderName: SV/AlphaBlend
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 0fa9e48777047104bb4bb8290d6be951, type: 3}
+    shaderName: SV/AlphaBlend
+    propertyName: _Alpha
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: acab126297274c848beb9908fb34d939, type: 3}
+    shaderName: SV/Downsample
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: acab126297274c848beb9908fb34d939, type: 3}
+    shaderName: SV/Downsample
+    propertyName: _HeightOffset
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: acab126297274c848beb9908fb34d939, type: 3}
+    shaderName: SV/Downsample
+    propertyName: _WidthOffset
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: c8a28ad8c8326d048a8a0af8fa87e004, type: 3}
+    shaderName: SV/HoloAlpha
+    propertyName: _BackTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: c8a28ad8c8326d048a8a0af8fa87e004, type: 3}
+    shaderName: SV/HoloAlpha
+    propertyName: _FronTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: c8a28ad8c8326d048a8a0af8fa87e004, type: 3}
+    shaderName: SV/HoloAlpha
+    propertyName: _OcclusionTexture
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: c8a28ad8c8326d048a8a0af8fa87e004, type: 3}
+    shaderName: SV/HoloAlpha
+    propertyName: _Alpha
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: eea5640f3b88bc740b064fb8e21f7084, type: 3}
+    shaderName: SV/YUVToRGB
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: eea5640f3b88bc740b064fb8e21f7084, type: 3}
+    shaderName: SV/YUVToRGB
+    propertyName: _Width
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: eea5640f3b88bc740b064fb8e21f7084, type: 3}
+    shaderName: SV/YUVToRGB
+    propertyName: _Height
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: eea5640f3b88bc740b064fb8e21f7084, type: 3}
+    shaderName: SV/YUVToRGB
+    propertyName: _AlphaScale
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bd694db3311e85043ade9f089995566b, type: 3}
+    shaderName: SV/RGBToNV12
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: bd694db3311e85043ade9f089995566b, type: 3}
+    shaderName: SV/RGBToNV12
+    propertyName: _Width
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bd694db3311e85043ade9f089995566b, type: 3}
+    shaderName: SV/RGBToNV12
+    propertyName: _Height
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 2b889b1f72bf846f3b8543b49b4f51b3, type: 3}
+    shaderName: SV/Blur
+    propertyName: _MaskTexture
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 2b889b1f72bf846f3b8543b49b4f51b3, type: 3}
+    shaderName: SV/Blur
+    propertyName: _BlurSize
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 85fad1b1898fc6c43b34ef1668215c99, type: 3}
+    shaderName: SV/ExtractAlpha
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: b0afe19eb5a14bd4a804a6dcae920c15, type: 3}
+    shaderName: SV/RGBToYUV
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: b0afe19eb5a14bd4a804a6dcae920c15, type: 3}
+    shaderName: SV/RGBToYUV
+    propertyName: _Width
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: b0afe19eb5a14bd4a804a6dcae920c15, type: 3}
+    shaderName: SV/RGBToYUV
+    propertyName: _Height
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _WorkflowMode
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _BaseColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _BaseMap
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _Cutoff
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _Smoothness
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _GlossMapScale
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _SmoothnessTextureChannel
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _Metallic
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _MetallicGlossMap
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _SpecColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _SpecGlossMap
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _SpecularHighlights
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _EnvironmentReflections
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _BumpScale
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _BumpMap
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _OcclusionStrength
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _OcclusionMap
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _EmissionColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _EmissionMap
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _Surface
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _Blend
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _AlphaClip
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _SrcBlend
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _DstBlend
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _ZWrite
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _Cull
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _ReceiveShadows
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _QueueOffset
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _Color
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _Glossiness
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    shaderName: Universal Render Pipeline/Lit
+    propertyName: _GlossyReflections
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _BaseColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _BaseMap
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _Cutoff
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _SpecColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _SpecGlossMap
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _SmoothnessSource
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _SpecularHighlights
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _BumpScale
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _BumpMap
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _EmissionColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _EmissionMap
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _Surface
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _Blend
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _AlphaClip
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _SrcBlend
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _DstBlend
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _ZWrite
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _Cull
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _ReceiveShadows
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _QueueOffset
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _Smoothness
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _Color
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _Shininess
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _GlossinessSource
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    shaderName: Universal Render Pipeline/Simple Lit
+    propertyName: _SpecSource
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _BaseMap
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _BaseColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _Cutoff
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _BumpMap
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _EmissionColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _EmissionMap
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _SoftParticlesNearFadeDistance
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _SoftParticlesFarFadeDistance
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _CameraNearFadeDistance
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _CameraFarFadeDistance
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _DistortionBlend
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _DistortionStrength
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _Surface
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _Blend
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _AlphaClip
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _BlendOp
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _SrcBlend
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _DstBlend
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _ZWrite
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _Cull
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _ColorMode
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _BaseColorAddSubDiff
+    propertyType: 1
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _FlipbookBlending
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _SoftParticlesEnabled
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _CameraFadingEnabled
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _SoftParticleFadeParams
+    propertyType: 1
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _CameraFadeParams
+    propertyType: 1
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _DistortionEnabled
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _DistortionStrengthScaled
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _QueueOffset
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _FlipbookMode
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _Mode
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    shaderName: Universal Render Pipeline/Particles/Unlit
+    propertyName: _Color
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _EnableHeightBlend
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _HeightTransition
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _NumLayersCount
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Control
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Splat3
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Splat2
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Splat1
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Splat0
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Normal3
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Normal2
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Normal1
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Normal0
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Mask3
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Mask2
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Mask1
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Mask0
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Metallic0
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Metallic1
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Metallic2
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Metallic3
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Smoothness0
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Smoothness1
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Smoothness2
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _Smoothness3
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _BaseColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _TerrainHolesTexture
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    shaderName: Universal Render Pipeline/Terrain/Lit
+    propertyName: _EnableInstancedPerPixelNormal
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: e260cfa7296ee7642b167f1eb5be5023, type: 3}
+    shaderName: Universal Render Pipeline/2D/Sprite-Lit-Default
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: e260cfa7296ee7642b167f1eb5be5023, type: 3}
+    shaderName: Universal Render Pipeline/2D/Sprite-Lit-Default
+    propertyName: _MaskTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: e260cfa7296ee7642b167f1eb5be5023, type: 3}
+    shaderName: Universal Render Pipeline/2D/Sprite-Lit-Default
+    propertyName: _NormalMap
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: e260cfa7296ee7642b167f1eb5be5023, type: 3}
+    shaderName: Universal Render Pipeline/2D/Sprite-Lit-Default
+    propertyName: _Color
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: e260cfa7296ee7642b167f1eb5be5023, type: 3}
+    shaderName: Universal Render Pipeline/2D/Sprite-Lit-Default
+    propertyName: _RendererColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: e260cfa7296ee7642b167f1eb5be5023, type: 3}
+    shaderName: Universal Render Pipeline/2D/Sprite-Lit-Default
+    propertyName: _Flip
+    propertyType: 1
+  - shader: {fileID: 4800000, guid: e260cfa7296ee7642b167f1eb5be5023, type: 3}
+    shaderName: Universal Render Pipeline/2D/Sprite-Lit-Default
+    propertyName: _AlphaTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: e260cfa7296ee7642b167f1eb5be5023, type: 3}
+    shaderName: Universal Render Pipeline/2D/Sprite-Lit-Default
+    propertyName: _EnableExternalAlpha
+    propertyType: 2
+  - shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Sprites/Default
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Sprites/Default
+    propertyName: _Color
+    propertyType: 0
+  - shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Sprites/Default
+    propertyName: PixelSnap
+    propertyType: 2
+  - shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Sprites/Default
+    propertyName: _RendererColor
+    propertyType: 0
+  - shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Sprites/Default
+    propertyName: _Flip
+    propertyType: 1
+  - shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Sprites/Default
+    propertyName: _AlphaTex
+    propertyType: 4
+  - shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Sprites/Default
+    propertyName: _EnableExternalAlpha
+    propertyType: 2
